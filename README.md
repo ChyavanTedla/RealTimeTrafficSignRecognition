@@ -27,5 +27,5 @@ Tech Stack:
 Software: Python, TensorFlow/PyTorch, OpenCV.
 
 
-Dataset: German Traffic Sign Recognition Benchmark (GTSRB).
+Dataset: 
 
