@@ -1,0 +1,21 @@
+# Python Virtual Environment Folder
+# This is specific to your computer and should not be uploaded.
+.venv/
+
+# Trained Model Files
+# These files are large and can be recreated by running your notebook.
+*.h5
+*.keras
+
+# Dataset Folder
+# The raw image dataset is too large for GitHub.
+dataset-german/
+Indian-Traffic-Sign-Dataset/
+Images/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+
+# VS Code specific files
+.vscode/
