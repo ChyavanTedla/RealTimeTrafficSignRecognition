@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffix sign recognistion system</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 1. Load the TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Traffic Sign Classifier (CNN)</h1>
+        <p id="status">Loading Model...</p>
+    </div>
+
+    <div class="video-container">
+        <!-- The webcam video feed -->
+        <video id="webcam" autoplay muted playsinline width="640" height="480"></video>
+    </div>
+
+    <div class="prediction-container">
+        <h2>Prediction:</h2>
+        <p id="prediction-text">---</p>
+        <p id="confidence-text">(Hold sign close to camera)</p>
+    </div>
+    
+    <!-- 2. Load our application's JavaScript code -->
+    <script src="app.js"></script>
+</body>
+</html>
